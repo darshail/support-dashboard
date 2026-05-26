@@ -1,0 +1,30 @@
+/** Raw CSV column names from cleaned_data.csv */
+export const RAW_COLUMNS = {
+  CASE_NUMBER: 'case_number',
+  STATUS: 'status',
+  CASE_CATEGORY: 'case_category',
+  PRODUCT_TYPE: 'product_type',
+  PRODUCT_SUB_TYPE: 'product_sub_type',
+  TYPE_OF_ISSUES: 'type_of_issues',
+  DATE_TIME_OPENED: 'date/time_opened',
+  ACCOUNT_NAME: 'account_name:_account_name',
+  ACCOUNT_ZONE: 'account_zone',
+  RESOLUTION_DATE: 'resolution_date',
+  DATE_TIME_CLOSED: 'date/time_closed',
+  RESOLUTION_CATEGORY: 'resolution_category',
+  RESOLUTION_SUB_TYPE: 'resolution_sub_type',
+  MTTR: 'mttr',
+  CASE_AGE: 'case_age',
+  MTTR_OEM_VENDORS: 'mttr_oem/vendors',
+  CUSTOMER_CLOSURE_CHOICE: 'customer_closure_choice',
+  CUSTOMER_RATING: 'customer_rating',
+  CUSTOMER_FEEDBACK: 'customer_feedback',
+  ASSIGNED_OEM_VENDOR: 'assigned_oem/vendor:_account_name',
+  RESOLVED_BY_AGENT: 'resolved_by_agent?',
+  ACCOUNT_REGION: 'account_region',
+  RESOLUTION_TIME_HOURS: 'resolution_time_hours',
+  MONTH: 'month',
+  ISSUE_BUCKET: 'issue_bucket',
+}
+
+/** @typedef {import('./types').SupportCase} SupportCase */
